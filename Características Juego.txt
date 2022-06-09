@@ -1,0 +1,30 @@
+Juego: Contra Reloj
+
+Características del juego:
+
+	-Preguntas con dos opciones de respuesta
+	-Hay tiempo límite (cronómetro) para responder las preguntas.
+	-preguntas de ciencias básicas
+	-Clasificar preguntas según dificutades
+	-Clasificar preguntas de acuerdo a los temas.
+	-El usuario puede seleccionar el tema	
+	-Cada intento del usuario de un solo tema
+	-hay 10 preguntas
+	- 1 tema especial con preguntas aleatorias
+	-el usuario tiene 3 vidas
+	-cada pregunta mal contestada, el jugador pierde vidas
+	-Hay preguntas bonus, con la mayor dificultad, que dan vidas. Son preguntas aleatorias que salen en niveles impares.
+	-Si el usuario termina un tema, aparece en la pantalla principal el tema en otro color.
+	-iniciaremos con 3 temas
+	-Cada finalización de tema, da un premio "una medalla". 
+
+
+CLASES:
+	1. Jugador
+	2. Preguntas
+	3. Temas
+	4. Respuestas
+	5. Botones para interactuar
+	
+	
+	
