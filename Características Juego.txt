@@ -20,11 +20,12 @@ Características del juego:
 
 
 CLASES:
-	1. Jugador
-	2. Preguntas
-	3. Temas
-	4. Respuestas
-	5. Botones para interactuar
+
+	1. Jugador: Sergio
+	2. Preguntas: Diego
+	3. Temas: John
+	4. Respuestas:Alejandra
+	5. Botones para interactuar: Nelson
 	
 	
 	
