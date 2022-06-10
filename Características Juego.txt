@@ -29,6 +29,8 @@ CLASES:
 		Puede cambiar preguntas 2 veces.
 		Gana medallas
 		Pierde todas las vidas al finalizar el tiempo
+		No puede tener vidas menores a 0
+		pierde el juego con 0 vidas
 		
 	2. Preguntas: Diego
 		Tiene dificultad
