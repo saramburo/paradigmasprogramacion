@@ -6,6 +6,9 @@ Tiene 3 vidas
 		El jugador pierde vidas al responder
 		Puede cambiar preguntas 2 veces.
 		Gana medallas
+		Pierde todas las vidas al finalizar el tiempo
+		No puede tener vidas menores a 0
+		pierde el juego con 0 vidas
 */
     private int vidas;
     private String nombre;
@@ -26,5 +29,25 @@ Tiene 3 vidas
 
     public void setVidas(int vidas) {
         this.vidas = vidas;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setMedallas(int medallas) {
+        this.medallas = medallas;
+    }
+
+    public int getVidas() {
+        return vidas;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getMedallas() {
+        return medallas;
     }
 }
