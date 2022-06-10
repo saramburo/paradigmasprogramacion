@@ -28,6 +28,7 @@ CLASES:
 		El jugador pierde vidas al responder
 		Puede cambiar preguntas 2 veces.
 		Gana medallas
+		Pierde todas las vidas al finalizar el tiempo
 		
 	2. Preguntas: Diego
 		Tiene dificultad
