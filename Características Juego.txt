@@ -20,11 +20,40 @@ Características del juego:
 
 
 CLASES:
-	1. Jugador
-	2. Preguntas
-	3. Temas
-	4. Respuestas
-	5. Botones para interactuar
+
+	1. Jugador: Sergio
+		Tiene 3 vidas
+		Tiene que escoger tema
+		Tiene que escoger respuesta
+		El jugador pierde vidas al responder
+		Puede cambiar preguntas 2 veces.
+		Gana medallas
+		Pierde todas las vidas al finalizar el tiempo
+		No puede tener vidas menores a 0
+		pierde el juego con 0 vidas
+		
+	2. Preguntas: Diego
+		Tiene dificultad
+		Pertenece a un tema
+		Tiene 2 respuestas asociadas
+		Puede ser bonus o no
+		Tiene texto
+		
+	3. Temas: John
+		Tiene límite de tiempo
+		Son 12 preguntas por tema
+		Categoría especial con preguntas mixtas
+		Tiene texto
+		Tiene medallas
+		
+	4. Respuestas:Alejandra
+		Tiene dos opciones: Correcto / Incorrecto
+		Tiene una pregunta padre
+		Tiene texto
+		
+	5. Botones para interactuar: Nelson
+		Cada botón tiene un evento asociado
+		
 	
 	
 	
