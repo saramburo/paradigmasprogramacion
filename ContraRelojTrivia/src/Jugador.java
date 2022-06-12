@@ -10,6 +10,7 @@ Tiene 3 vidas
 		No puede tener vidas menores a 0
 		pierde el juego con 0 vidas
 */
+
     private int vidas;
     private String nombre;
     private int medallas;
@@ -23,7 +24,7 @@ Tiene 3 vidas
         this(3,"",0,0,"");
     }
     // Metodo constructor del jugador
-    public Jugador( int vidas, String nombre, int medallas, String tema){
+    public Jugador(int vidas, String nombre, int medallas,int score, String tema){
         this.vidas=vidas;
         this.nombre=nombre;
         this.medallas=medallas;
