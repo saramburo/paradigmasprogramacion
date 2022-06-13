@@ -57,5 +57,11 @@ Tiene 3 vidas
         return medallas;
     }
 
+    public void perderVida(){
+        while( vidas>0)
+        if(Pregunta.getRespuesta()==false){
+            this.vidas=vidas-1;
+        }
+    }
 
 }
