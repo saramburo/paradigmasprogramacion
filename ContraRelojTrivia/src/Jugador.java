@@ -14,22 +14,22 @@ Tiene 3 vidas
     private int vidas;
     private String nombre;
     private int medallas;
-    private int score;
-    private String tema;
+
+
 
 
 
     // Metodo default constructor para un jugador cuando inicia el juego
     public Jugador(){
-        this(3,"",0,0,"");
+        this(3,"",0);
     }
     // Metodo constructor del jugador
-    public Jugador(int vidas, String nombre, int medallas,int score, String tema){
+    public Jugador(int vidas, String nombre, int medallas){
         this.vidas=vidas;
         this.nombre=nombre;
         this.medallas=medallas;
-        this.score=score;
-        this.tema=tema;
+
+
     }
 
 
