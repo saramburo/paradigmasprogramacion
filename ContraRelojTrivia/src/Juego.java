@@ -10,10 +10,7 @@ public class Juego {
         this.pregunta = pregunta;
     }
 
-    public void init(Jugador jugador1, Tema){
-        this.jugador=jugador;
 
-    }
 
 
 }

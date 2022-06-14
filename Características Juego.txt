@@ -37,19 +37,19 @@ CLASES:
 		Pertenece a un tema
 		Tiene 2 respuestas asociadas
 		Puede ser bonus o no
-		Tiene texto
+		Tiene descripcionTema
 		
 	3. Temas: John
 		Tiene límite de tiempo
 		Son 12 preguntas por tema
 		Categoría especial con preguntas mixtas
-		Tiene texto
+		Tiene descripcionTema
 		Tiene medallas
 		
 	4. Respuestas:Alejandra
 		Tiene dos opciones: Correcto / Incorrecto
 		Tiene una pregunta padre
-		Tiene texto
+		Tiene descripcionTema
 		
 	5. Botones para interactuar: Nelson
 		Cada botón tiene un evento asociado

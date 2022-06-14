@@ -58,10 +58,19 @@ Tiene 3 vidas
     }
 
     public void perderVida(){
-        while( vidas>0)
-        if(Pregunta.getRespuesta()==false){
-            this.vidas=vidas-1;
-        }
+
+
+            this.vidas=this.vidas-1;
+            if(this.vidas<=0){
+                System.out.println("Juego Perdido");
+            }
+
+    }
+     public int vidasRestantes(){
+        return this.vidas;
+     }
+    public void sumarMedallas(){
+        this.medallas=this.medallas+1;
     }
 
 }
