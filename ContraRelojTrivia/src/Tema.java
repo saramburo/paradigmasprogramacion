@@ -60,4 +60,8 @@ public class Tema {
         return Qmedallas;
     }
 
+    public void cambiarTema(){
+
+    }
+
 }
