@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField alignment="CENTER" prefHeight="82.0" prefWidth="600.0" text="SELECCIONA EL TEMA A RESPONDER">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </TextField>
+      <HBox layoutY="159.0" prefHeight="82.0" prefWidth="610.0" AnchorPane.topAnchor="200.0">
+         <children>
+            <ImageView id="geografia" fitHeight="55.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" styleClass="class_image">
+               <image>
+                  <Image url="@../../../../../../Images/globe.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="15.0" right="30.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="entretenimiento" fitHeight="55.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" styleClass="class_image">
+               <image>
+                  <Image url="@../../../../../../Images/mental-health.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="historia" fitHeight="55.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" styleClass="class_image">
+               <image>
+                  <Image url="@../../../../../../Images/history.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="arte_literatura" fitHeight="55.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" styleClass="class_image">
+               <image>
+                  <Image url="@../../../../../../Images/drama.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="ciencia" fitHeight="55.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" styleClass="class_image">
+               <image>
+                  <Image url="@../../../../../../Images/biology.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="deportes" fitHeight="55.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" styleClass="class_image">
+               <image>
+                  <Image url="@../../../../../../Images/sport.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="cultura" fitHeight="55.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" styleClass="class_image">
+               <image>
+                  <Image url="@../../../../../../Images/people.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <Text layoutX="20.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Geografía" />
+      <Text layoutX="88.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entretenimiento" />
+      <Text layoutX="195.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Historia" />
+      <Text layoutX="273.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Arte y Literatura" textAlignment="CENTER" wrappingWidth="55.0" />
+      <Text layoutX="363.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ciencia" />
+      <Text layoutX="451.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deportes" />
+      <Text layoutX="534.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cultura" />
+      <Pane layoutX="72.0" layoutY="407.0" prefHeight="68.0" prefWidth="413.0">
+         <children>
+            <Text layoutX="31.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEMAS CONCLUIDOS:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <TextField layoutX="266.0" layoutY="21.0" prefHeight="25.0" prefWidth="132.0" text="Gettemasconcluidos" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
