@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #47B5FF;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="¡PERDISTE!" textAlignment="CENTER" translateX="35.0" translateY="180.0" wrappingWidth="143.93670654296875">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <Text layoutX="244.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Volverías a Intentarlo?" textAlignment="CENTER" wrappingWidth="282.13671875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Button id="B_si" layoutX="272.0" layoutY="327.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #47B5FF;" text="Sí" />
+      <Button id="B_no" layoutX="421.0" layoutY="327.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #D61C4E;" text="No" textFill="WHITE" />
+      <ImageView fitHeight="233.0" fitWidth="292.0" layoutX="239.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Images/mental-health.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
