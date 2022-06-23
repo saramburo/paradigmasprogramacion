@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
@@ -10,45 +11,57 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DFF6FF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField alignment="CENTER" layoutY="-3.0" prefHeight="43.0" prefWidth="300.0" text="TEMA">
+      <TextField alignment="CENTER" layoutY="-3.0" prefHeight="43.0" prefWidth="300.0" style="-fx-background-color: #47B5FF;" text="TEMA">
          <font>
             <Font size="24.0" />
          </font>
       </TextField>
-      <TextField id="gettema" alignment="CENTER" layoutX="300.0" layoutY="-3.0" prefHeight="43.0" prefWidth="300.0" promptText="gettema" text="=TEMA SELECCIONADO">
+      <TextField id="gettema" alignment="CENTER" layoutX="300.0" layoutY="-3.0" prefHeight="43.0" prefWidth="300.0" promptText="gettema" text="=gettemaseleccionado">
          <font>
             <Font size="24.0" />
          </font>
       </TextField>
       <Pane layoutY="91.0" prefHeight="77.0" prefWidth="600.0">
          <children>
-            <Button id="P1" layoutX="21.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="1" />
-            <Button id="P2" layoutX="69.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="2" />
-            <Button id="P3" layoutX="119.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="3" />
-            <Button id="P4" layoutX="166.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="4" />
-            <Button id="P5" layoutX="212.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="5" />
-            <Button id="P6" layoutX="322.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="6" />
-            <Button id="P7" layoutX="370.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="7" />
-            <Button id="P8" layoutX="420.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="8" />
-            <Button id="P9" layoutX="467.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="9" />
-            <Button id="P10" layoutX="513.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" text="10" />
+            <Button id="P1" layoutX="21.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="1" />
+            <Button id="P2" layoutX="69.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="2" />
+            <Button id="P3" layoutX="119.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="3" />
+            <Button id="P4" layoutX="166.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="4" />
+            <Button id="P5" layoutX="212.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="5" />
+            <Button id="P6" layoutX="322.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="6" />
+            <Button id="P7" layoutX="370.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="7" />
+            <Button id="P8" layoutX="420.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="8" />
+            <Button id="P9" layoutX="467.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="9" />
+            <Button id="P10" layoutX="513.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0" style="-fx-background-color: #ffffff;" text="10" />
          </children>
       </Pane>
       <Text layoutX="32.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pregunta" />
-      <TextArea layoutX="20.0" layoutY="200.0" prefHeight="69.0" prefWidth="552.0" text="Espacio para la pregunta" />
-      <ImageView fitHeight="94.0" fitWidth="73.0" layoutX="150.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+      <TextArea layoutX="24.0" layoutY="176.0" prefHeight="69.0" prefWidth="552.0" text="Espacio para la pregunta" />
+      <ImageView fitHeight="94.0" fitWidth="73.0" layoutX="288.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../Images/door.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="94.0" fitWidth="73.0" layoutX="377.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="94.0" fitWidth="73.0" layoutX="433.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../Images/door.png" />
          </image>
       </ImageView>
-      <Text layoutX="21.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecciona una puerta" />
+      <Text fill="#06283d" layoutX="24.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecciona una puerta">
+         <font>
+            <Font name="AGA Arabesque" size="23.0" />
+         </font></Text>
+      <RadioButton layoutX="268.0" layoutY="353.0" mnemonicParsing="false" text="getrespuesta1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="413.0" layoutY="353.0" mnemonicParsing="false" text="getrespuesta2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
    </children>
 </AnchorPane>
