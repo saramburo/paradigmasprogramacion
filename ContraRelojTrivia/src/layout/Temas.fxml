@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -10,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="600.0" style="-fx-background-color: #DFF6FF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="600.0" style="-fx-background-color: #DFF6FF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.juego_paradigmas.HelloController">
    <children>
       <TextField alignment="CENTER" prefHeight="82.0" prefWidth="600.0" style="-fx-background-color: #47B5FF;" text="SELECCIONA EL TEMA A RESPONDER">
          <font>
@@ -77,13 +78,6 @@
             </ImageView>
          </children>
       </HBox>
-      <Text layoutX="20.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Geografía" />
-      <Text layoutX="88.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entretenimiento" />
-      <Text layoutX="195.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Historia" />
-      <Text layoutX="273.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Arte y Literatura" textAlignment="CENTER" wrappingWidth="55.0" />
-      <Text layoutX="363.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ciencia" />
-      <Text layoutX="451.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deportes" />
-      <Text layoutX="534.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cultura" />
       <Pane layoutX="50.0" layoutY="366.0" prefHeight="76.0" prefWidth="514.0">
          <children>
             <Text layoutX="20.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEMAS CONCLUIDOS:">
@@ -94,5 +88,16 @@
             <TextField layoutX="330.0" layoutY="19.0" prefHeight="25.0" prefWidth="132.0" text="Gettemasconcluidos" />
          </children>
       </Pane>
+      <Button id="geografia" layoutX="7.0" layoutY="275.0" mnemonicParsing="false" onAction="#onGeografiaClick" text="Geografía" />
+      <Button id="entretenimiento" layoutX="91.0" layoutY="274.0" mnemonicParsing="false" onAction="#onEntretenimientoClick" prefHeight="26.0" prefWidth="77.0" text="Entretenimiento">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button id="historia" layoutX="185.0" layoutY="274.0" mnemonicParsing="false" onAction="#onHistoriaClick" text="Historia" />
+      <Button id="arte" layoutX="272.0" layoutY="274.0" mnemonicParsing="false" onAction="#onArteClick" prefHeight="26.0" prefWidth="55.0" text="Arte" />
+      <Button id="ciencia" layoutX="355.0" layoutY="273.0" mnemonicParsing="false" onAction="#onCienciaClick" prefHeight="26.0" prefWidth="55.0" text="Ciencia" />
+      <Button id="deporte" layoutX="438.0" layoutY="274.0" mnemonicParsing="false" onAction="#onDeportesClick" prefHeight="26.0" prefWidth="72.0" text="Deporte" />
+      <Button id="cultura" layoutX="521.0" layoutY="273.0" mnemonicParsing="false" onAction="#onCulturaClick" prefHeight="26.0" prefWidth="72.0" text="Cultura" />
    </children>
 </AnchorPane>

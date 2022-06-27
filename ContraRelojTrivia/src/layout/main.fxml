@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.juego_paradigmas.HelloController">
    <children>
       <Pane prefHeight="79.0" prefWidth="600.0" style="-fx-background-color: #06283D;">
          <children>
@@ -26,7 +26,7 @@
       </ImageView>
       <Pane layoutY="79.0" prefHeight="319.0" prefWidth="146.0" style="-fx-background-color: #DFF6FF;">
          <children>
-            <Button layoutX="23.0" layoutY="138.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" style="-fx-background-color: #47B5FF;" text="Inicia" />
+            <Button id="bt_inicio" layoutX="23.0" layoutY="138.0" mnemonicParsing="false" onAction="#onInicioButtonClick" prefHeight="44.0" prefWidth="100.0" style="-fx-background-color: #47B5FF;" text="Inicia" />
          </children>
       </Pane>
    </children>
