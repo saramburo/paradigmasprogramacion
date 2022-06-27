@@ -19,7 +19,8 @@ public class App extends Application {
     private Scene escena;
 
     @Override
-    public void start(Stage vetana) {
+ /* 
+ public void start(Stage vetana) {
         
         inicializarComponentes();
         gestionEventos();
@@ -27,6 +28,21 @@ public class App extends Application {
         vetana.setScene(escena);
         vetana.show();
         
+    }
+    */
+  public void start(Stage stage) throws IOException {
+   try {
+
+            Parent root = FXMLLoader.load(this.getClass().getResource("main.fxml"));
+            Scene scene = new Scene(root);
+
+            stage.setResizable(false);
+            stage.setScene(scene);
+            stage.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+       
     }
 
     public void inicializarComponentes() {
